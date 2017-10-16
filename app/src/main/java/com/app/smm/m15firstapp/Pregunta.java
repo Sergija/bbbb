@@ -15,5 +15,17 @@ public class Pregunta {
         this.questionId=questionId;
         this.pistaId=pistaId;
     }
+
+    public boolean isAnswer() {
+        return answer;
+    }
+
+    public int getQuestionId() {
+        return questionId;
+    }
+
+    public int getPistaId() {
+        return pistaId;
+    }
 }
 
